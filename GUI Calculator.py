@@ -2,7 +2,7 @@ import tkinter as tk
 
 result = ''
 total = ''
-class Window(tk.Tk):
+class Calculator(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title('Calculator')
@@ -134,5 +134,5 @@ class Window(tk.Tk):
 
         
 if __name__== '__main__':
-    window= Window()
-    window.mainloop()
+    calculator= Calculator()
+    calculator.mainloop()
